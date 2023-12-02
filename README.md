@@ -17,3 +17,5 @@
 python3 易思智能物流无人值守系统文件上传.py -u http://xx.xx.xx.xx:8080
 ```
 <img width="636" alt="截屏2023-12-02 15 33 24" src="https://github.com/FeiNiao/-/assets/66779835/82495b32-0de6-4b20-9ff3-27cae024d73b">
+
+可自行根据代码进行批量化的改写
